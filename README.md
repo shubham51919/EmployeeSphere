@@ -1,95 +1,139 @@
-# Getting Started with Graph Toolkit Contact Exporter
+# Employee Sphere
 
-Graph Toolkit Contact Exporter sample APP provides an easy way to export your teams contact info to Excel file. This APP is using [Microsoft Graph Toolkit](https://docs.microsoft.com/en-us/graph/toolkit/overview) as UI component.
+**Employee Sphere** is a comprehensive employee management application built using React and Redux. It provides a range of features to enhance employee engagement and productivity. Designed to integrate seamlessly within Microsoft Teams, it adapts to Teams' themes using Fluent UI for a consistent and visually appealing experience.
 
-![Contact Exporter Overview](images/overview.gif)
+## Features
 
-> Note: This sample will only provision [single tenant](https://learn.microsoft.com/azure/active-directory/develop/single-and-multi-tenant-apps#who-can-sign-in-to-your-app) Azure Active Directory app. For multi-tenant support, please refer to this [wiki](https://aka.ms/teamsfx-multi-tenant).
+### 1. **Referral Portal**
+- Employees can refer candidates for open positions.
+- Tracks referral statuses.
 
-## This sample illustrates
+### 2. **HR Queries**
+- Submit and manage HR-related queries.
+- Query tracking and resolution system.
 
-- How to use TeamsFx to build frontend hosting on Azure for your tab app.
-- How to integration TeamsFx with Microsoft Graph Toolkit library.
+### 3. **Newsroom**
+- Stay updated with the latest company news and announcements.
+- Rich text and multimedia support for articles.
 
-## Prerequisite to use this sample
+### 4. **Food Ordering Portal**
+- Browse and order meals from the cafeteria menu.
+- Real-time menu updates and order tracking.
 
-- [Node.js](https://nodejs.org/) version 16, 18
-- A Microsoft 365 tenant in which you have permission to upload Teams apps. You can get a free Microsoft 365 developer tenant by joining the [Microsoft 365 developer program](https://developer.microsoft.com/en-us/microsoft-365/dev-program).
-- [Teams Toolkit Visual Studio Code Extension](https://aka.ms/teams-toolkit) version 5.0.0 and higher or [TeamsFx CLI](https://aka.ms/teamsfx-cli)
+### 5. **Admin Portal**
+- Manage users, permissions, and application configurations.
+- View and analyze employee activity statistics.
 
-## Minimal path to awesome
+## Technology Stack
 
-### Run the app locally
+- **Frontend Framework**: React
+- **State Management**: Redux
+- **UI Library**: Fluent UI (for seamless integration with Microsoft Teams)
 
-- From VSCode
+## Key Features
 
-  1. Clone the repo to your local workspace or directly download the source code.
-  1. Open the project in Visual Studio Code.
-  1. Open Debug View (`Ctrl+Shift+D`) and select "Debug (Edge)" or "Debug (Chrome)" in dropdown list.
-  1. Press "F5" to open a browser window and then select your package to view contact exporter sample app.
+1. **Microsoft Teams Compatibility**:
+   - The application can be accessed within Microsoft Teams as a custom tab.
+   - Automatically adapts to Teams’ dark and light themes for a native look.
 
-- From TeamsFx CLI
-  1. Run command: `teamsfx provision --env local` .
-  1. Run command: `teamsfx deploy --env local` .
-  1. Run command: `teamsfx preview --env local` .
+2. **Responsive Design**:
+   - Ensures compatibility across devices (desktop, tablet, mobile).
 
-### Deploy the app to Azure
+3. **Customizable**:
+   - Admins can modify settings to align with company-specific requirements.
 
-> If you don't have an Azure subscription, create [a free account](https://azure.microsoft.com/en-us/free/) before you begin
+## Installation
 
-- From VSCode
+### Prerequisites
+- Node.js (>=14.x)
+- npm (>=6.x) or Yarn
+- Microsoft Teams setup (optional for Teams integration)
 
-  1. Sign in to Azure by clicking `Sign in to Azure` under the `ACCOUNTS` section from sidebar.
-  1. Click `Provision` from `LIFECYCLE` section or open the command palette and select: `Teams: Provision`.
-  1. Click `Deploy` or open the command palette and select: `Teams: Deploy`.
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shubham51919/EmployeeSphere.git
+   ```
 
-- From TeamsFx CLI
-  1. Run command: `teamsfx account login azure`.
-  1. Run command: `teamsfx provision --env dev`.
-  1. Run command: `teamsfx deploy --env dev`.
+2. Navigate to the project directory:
+   ```bash
+   cd employee-sphere
+   ```
 
-### Preview the app in Teams
+3. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-- From VSCode:
-  1. Once deployment is completed, you can preview the APP running in Azure. In Visual Studio Code, open `Run and Debug` and select `Launch Remote (Edge)` or `Launch Remote (Chrome)` in the dropdown list and Press `F5` or green arrow button to open a browser.
-- From TeamsFx CLI:
-  1. Run command: `teamsfx preview --env dev`.
+4. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-## Advanced usage of this sample
+5. Access the application in your browser:
+   ```
 
-1. The APP will look like this when it runs for the first time.
+   http://localhost:3000
+   ```
 
-   ![Login Page](images/start.png)
+## Deployment
 
-1. For the first time to run the app, you need to consent the APP to use Microsoft Graph API and Graph Toolkit. Click on "Accept" button to accept the Authorization.
+To deploy the application, follow these steps:
+1. Build the production-ready files:
+   ```bash
+   npm run build
+   # or
+   yarn build
+   ```
 
-   ![Consent](images/consent.png)
+2. Deploy the `build` folder to your preferred hosting provider.
 
-1. You could try to typing name to select person to view the contact info.
+## Usage in Microsoft Teams
 
-   ![Select](images/select.png)
+1. **Add as a Custom Tab**:
+   - Deploy the application to a web hosting service with HTTPS.
+   - Configure the Teams app manifest to include the hosted URL.
 
-1. You could try to move your mouse to user name to view the personal card of the user.
+2. **Theme Adaptation**:
+   - The app dynamically adjusts its UI based on Teams’ current theme (light, dark, high contrast).
 
-   ![Card](images/card.png)
+## Folder Structure
+```
+employee-sphere/
+├── public/         # Static assets
+├── src/
+│   ├── components/ # Reusable component
+│   ├── hooks/      # Custom hooks specific to components and logic
+│   ├── redux/      # State management files
+│   ├── utils/      # Utility functions
+│   └── App.js      # Root component
+├── package.json    # Project dependencies and scripts
+└── README.md       # Documentation
+```
 
-1. You could try to click 'Export Contact Table to Excel' button to export contact info to Excel.
+## Contributing
 
-## Known issues
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Description of changes"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
 
-- This template has adopted [Authorization Code Flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow) to implement SSO. There's a known limitation with mobile platforms such as iOS and a few Android versions where users have to sign in again as the state was not stored due to [third party cookie being blocked by the browser](https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more).
 
-- Due to system webview limitations, users in the tenant with conditional access policies applied cannot consent permissions when conduct an OAuth flow within the Teams mobile clients, it would show error: "xxx requires you to secure this device...".
+---
+Enjoy using **Employee Sphere**! Empower your workforce with a seamless and engaging application.
 
-To achieve full SSO experience, we will recommend you to implement OBO flow to pass your token to a server. See more [here](https://learn.microsoft.com/en-us/microsoftteams/platform/tabs/how-to/authentication/tab-sso-code#pass-the-access-token-to-server-side-code).
-
-## Version History
-
-| Date         | Author | Comments                               |
-| ------------ | ------ | -------------------------------------- |
-| May 18, 2022 | rentu  | update to support Teams Toolkit v4.0.0 |
-| Mar 17, 2023 | rentu  | update to support Teams Toolkit v5.0.0 |
-
-## Feedback
-
-We really appreciate your feedback! If you encounter any issue or error, please report issues to us following the [Supporting Guide](https://github.com/OfficeDev/TeamsFx-Samples/blob/dev/SUPPORT.md). Meanwhile you can make [recording](https://aka.ms/teamsfx-record) of your journey with our product, they really make the product better. Thank you!
