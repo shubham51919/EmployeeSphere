@@ -1,0 +1,20 @@
+.dialog-preview-posts {
+  width: 70%;
+}
+.sanitized-content > p > img {
+  max-width: 100% !important;
+  width: 100% !important;
+  border-radius: 4px !important;
+}
+
+.parent-image-container > img {
+  max-width: 100% !important;
+  width: 100% !important;
+  border-radius: 4px !important;
+}
+
+.sanitized-content > h1 > img {
+  max-width: 100% !important;
+  width: 100% !important;
+  border-radius: 4px !important;
+}

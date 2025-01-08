@@ -1,0 +1,6 @@
+.doc-raise-ticket-dialog .ui-header {
+  width: 100%;
+}
+.doc-raise-ticket-dialog .ui-dialog__footer .ui-flex {
+  background: transparent;
+}

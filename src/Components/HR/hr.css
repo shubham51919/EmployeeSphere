@@ -1,0 +1,673 @@
+.ticket-form {
+  width: 42vw;
+  padding: 1rem;
+  padding: 0.6rem !important;
+}
+
+.heading-q {
+  width: 49.5vw;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.divider-hr>div {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: #d1d1d1 !important;
+}
+
+.ticket-provider>div:nth-of-type(2) {
+  border-radius: 4px !important;
+  width: 51vw;
+}
+
+.inside-form-ticket {
+  margin-top: 5rem !important;
+  padding: 1vh 1.5vw 1vh 1vw;
+  min-width: 38vw;
+  min-height: 55vh;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  width: 100%;
+}
+
+.inside-form-queries>div>img {
+  height: 25vh !important;
+}
+
+.queries-form>div {
+  width: 99%;
+}
+
+.queries-form>div>div:nth-of-type(2) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container {
+  display: none;
+}
+
+.ticket-heading {
+  font-size: 1rem;
+  padding: 0rem 1rem 0.5rem 0.8rem;
+}
+
+.dropdown-inside>div {
+  min-width: 100% !important;
+}
+
+.dropdown-inside>div>div>button>span {
+  font-size: 0.875rem !important;
+  font-weight: 400;
+}
+
+.dropdown-inside>div>ul {
+  max-height: 20.5rem !important;
+}
+
+.textarea-ticket {
+  padding: 3vh 0vw;
+}
+
+@media (max-height: 600px) {
+  .textarea-inside-ticket {
+    min-height: 10vh;
+  }
+}
+
+@media (min-height: 601px) {
+  .textarea-inside-ticket {
+    min-height: 15vh;
+  }
+}
+
+.pointslabel-parent {
+  padding: 0rem !important;
+  padding-right: 13px !important;
+}
+
+.btn-esclate-further {
+  background-color: white !important;
+  box-shadow: none !important;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(84, 88, 190, 1) !important;
+  height: 30px !important;
+  padding: 8px 16px 8px 16px !important;
+}
+
+.buttons-ticket-cancel {
+  min-width: 6rem !important;
+  max-width: 6rem !important;
+  min-height: 2rem !important;
+  max-height: 2rem !important;
+}
+
+.buttons-ticket-submit {
+  min-width: 6rem !important;
+  max-width: 6rem !important;
+  min-height: 2rem !important;
+  max-height: 2rem !important;
+}
+
+.buttons-ticket {
+  display: flex;
+  justify-content: end;
+  margin-top: 1.5rem;
+}
+
+.queries-form {
+  width: 51vw;
+  /* min-height: 40vh; */
+}
+
+.inside-form-queries {
+  min-width: 44vw;
+  min-height: 55vh;
+  max-height: 55vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  width: 100%;
+}
+
+.new-hr-class>div:nth-of-type(1) {
+  margin-right: 0.5rem;
+}
+
+.ticket-provider>div:nth-of-type(1) {
+  margin-right: 1.2rem !important;
+}
+
+.queries-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.4rem 1rem 0rem 0.8rem;
+}
+
+.ticket-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.4rem 1rem 0rem 0.8rem;
+}
+
+.dropdown-inside>div {
+  min-width: 100% !important;
+}
+
+.textarea-queries {
+  padding: 3vh 0vw;
+}
+
+.textarea-inside-queries {
+  min-height: 20vh;
+}
+
+.buttons-queries-cancel {
+  min-width: 48% !important;
+  padding: 3vh 3vw !important;
+}
+
+.buttons-queries-submit {
+  min-width: 48% !important;
+  padding: 3vh 3vw !important;
+}
+
+.accordion-rows {
+  width: 42vw;
+}
+
+.accordion-rows>div {
+  width: 100%;
+}
+
+.pending-hr-provider {
+  color: black !important;
+  background-color: white !important;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.second-container {
+  background-color: rgba(0, 0, 0, 0) !important;
+  width: 270px;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 426px) {
+  .pending-hr-provider {
+    width: 48vw;
+  }
+}
+.YourQueries-Row {
+  justify-content: center;
+  min-width: 5vw;
+  flex: 30%;
+}
+
+.YourQueries-Row>span:nth-of-type(1) {
+  font-size: 1.8vh;
+  font-weight: 600;
+}
+
+.YourQueries-Row>span:nth-of-type(2) {
+  font-size: 1.8vh;
+  color: #616161;
+}
+
+.main-row {
+  min-width: 40vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1vh 0vw;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.ui-accordion__title>div {
+  grid-template-columns: none;
+}
+
+.yourqueries-btn {
+  border-radius: 15px;
+  height: 5.5vh !important;
+
+  width: 12vw;
+  padding: 5vh 2.5vw;
+}
+
+.lineimg-hr {
+  padding: 1.5vh 0vw;
+  width: 0.15vw;
+  height: 0.5vh;
+}
+
+.ui-accordion__content {
+  margin: 0 !important;
+}
+
+.ui-accordion__title {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.active {
+  background-color: #fafafa;
+}
+
+.hr-desc-main {
+  font-size: 1.8vh !important;
+}
+
+.list-skeleton-parent {
+  width: 100%;
+}
+
+.list-skeleton {
+  width: 100%;
+}
+
+.list-skeleton>li {
+  padding: 1rem 0.5rem;
+  margin: 1rem 0rem;
+}
+
+.dropdown-ticket-text::after {
+  content: "*";
+  color: red;
+  margin-left: 0.2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .e ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .main-ref {
+    overflow-y: auto;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 10px !important;
+    gap: 5px !important;
+  }
+
+  .new-hr-class {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px !important;
+  }
+
+  .ticket-form {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .hr-header {
+    height: 20vh;
+  }
+
+  .hr-query-header-right,
+  .breadcrumb-div {
+    display: none !important;
+  }
+
+  .hr-header>div {
+    background: var(--linear,
+        linear-gradient(270deg, #d9e5ff 0%, #eedfff 100%));
+  }
+
+  .background-hr-header {
+    height: 100%;
+    width: 100%;
+    background: none;
+    border-radius: 4px;
+
+    background: url("../../Assets/hrAssets/object-1.svg"),
+      url("../../Assets/hrAssets/object3.svg"),
+      url("../../Assets/hrAssets/object2.svg");
+
+    background-size: 10% 10% 10%;
+    background-position:
+      top left,
+      bottom right,
+      top right;
+
+    background-repeat: no-repeat, no-repeat, no-repeat;
+
+    box-shadow:
+      0px 0.800000011920929px 1.7999999523162842px 0px rgba(0, 0, 0, 0.13),
+      0px 0.15000000596046448px 0.44999998807907104px 0px rgba(0, 0, 0, 0.11);
+  }
+
+  .referral-portal-heading {
+    color: var(--primary, #242424);
+    text-align: justify;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0 !important;
+  }
+
+  .refral-portal {
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 0.6rem !important;
+  }
+
+  .referral-portal-subheading {
+    margin-bottom: 0 !important;
+    font-size: 12px !important;
+  }
+
+  .inside-form-ticket {
+    margin: 0 !important;
+    padding: 0;
+    min-width: unset;
+    min-height: unset;
+    overflow-x: unset !important;
+    overflow-y: unset !important;
+    width: 100%;
+    height: 100%;
+  }
+
+  .queries-heading {
+    font-size: 14px;
+  }
+
+  .textarea-ticket {
+    margin: 0 !important;
+    padding: 0px !important;
+  }
+
+  .buttons-ticket {
+    margin-top: 10px !important;
+    margin-bottom: 0;
+    margin-right: auto;
+  }
+
+  .dropdown-ticket {
+    gap: 2px !important;
+  }
+
+  .ba> :not(:last-child) {
+    margin-bottom: 0 !important;
+  }
+
+  .textarea-inside-ticket {
+    height: 20px !important;
+  }
+
+  .dropdown-inside {
+    box-sizing: border-box;
+  }
+
+  h1.ui-header.ay.b.hr-header {
+    margin-bottom: 5px !important;
+  }
+
+  .buttons-ticket-submit {
+    color: white !important;
+    background-color: #5b5fc7 !important;
+  }
+
+  .buttons-ticket-cancel {
+    box-shadow: none !important;
+  }
+
+  .heading-q {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    text-align: justify;
+    padding-left: 0 !important;
+  }
+
+  .inside-form-queries>div>img {
+    display: none;
+  }
+
+  .queries-heading {
+    text-align: left !important;
+    align-self: flex-start;
+    padding: 0px !important;
+    padding-left: 20px !important;
+  }
+
+  .scoreboard {
+    margin-top: 5px;
+    font-size: 12px !important;
+    align-self: flex-start;
+    padding-left: 20px;
+  }
+
+  .leader-head-tab {
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+
+  .ui-flex.ao.aw.kv.leader-head-tab {
+    background: #f4f4f4;
+    color: black;
+  }
+
+  .score-rank {
+    color: blue !important;
+    font-size: 12px !important;
+  }
+
+  .score-label-new>div {
+    padding: 0px !important;
+  }
+
+  span.ui-button__content.hi.ho.hp.hq.hr.hs {
+    font-weight: 400;
+  }
+
+  .queries-form {
+    width: 100%;
+  }
+
+  .queries-form>div>div:nth-of-type(2) {
+    padding-left: 0.6rem;
+  }
+
+  .dropdown-ticket-text::after {
+    display: none;
+  }
+
+  .ui-dropdown__selected-items.ao.bl.cn.co.cp.bf.cq {
+    border-bottom: 1px solid rgba(91, 95, 199, 1);
+  }
+
+  .pending-hr-provider {
+    margin-left: 0 !important;
+    height: fit-content !important;
+    display: flex;
+    flex-direction: row !important;
+    background-color: rgba(244, 244, 244, 1) !important;
+    padding-bottom: 0 !important;
+    border-radius: 4px 4px 0px 0px;
+  }
+
+  .text-hr-provider {
+    padding-left: 0 !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+
+  .text-hr-provider>div>span {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: black;
+  }
+
+  .ui-flex.ao.aq.on.oo.op.oq.ol.ky.pointslabel-parent {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .btn-esclate-further {
+    margin-left: 0 !important;
+    margin-bottom: 0.6rem;
+    margin-top: 0.3rem;
+  }
+
+  span.ui-text.aw.on.provider-time-box {
+    background-color: transparent;
+    color: black;
+  }
+
+  span.ui-label.cv.aq.hi.os.ot.ou.ov.hq.cb.cc.cd.ce.cx.ow.cz.ox {
+    padding: 10px !important;
+  }
+
+  .ticket-info {
+    flex-direction: column;
+    gap: 0.6rem;
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+
+  .ticket-info>div {
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: row;
+  }
+
+  .bullet-class {
+    display: none;
+  }
+
+  .pointslabel-parent {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+
+  .show-more {
+    display: block !important;
+    border: none;
+    border-top: 1px solid rgba(209, 209, 209, 1);
+    background-color: rgba(244, 244, 244, 1);
+    width: 100%;
+    font-size: 0.65rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 25px !important;
+    padding: 6px 105px 6px 105px;
+    gap: 5px;
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .btn-show {
+    display: flex;
+    gap: 5px;
+    width: 80%;
+  }
+
+  .queries-heading-rt {
+    text-align: left !important;
+    align-self: flex-start;
+    padding-left: 0.3rem;
+    font-weight: 600;
+  }
+
+  .container {
+    padding-top: 10px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+
+  .container .top {
+    background-color: #5b5fc7;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+  }
+
+  .container .bottom {
+    background-color: #5b5fc7;
+    height: calc(100%);
+    width: 2px;
+  }
+
+  .accordion-rows .ui-provider {
+    width: 100% !important;
+  }
+
+  .accordion-rows {
+    width: 100% !important;
+  }
+
+  .second-container {
+    width: 90% !important;
+  }
+
+  .inside-form-queries {
+    min-height: 40vh !important;
+  }
+
+  .queries-form {
+    height: 34vh !important;
+    overflow-y: auto;
+  }
+
+  .pending-flex {
+    width: 90% !important;
+    gap: 5px !important;
+  }
+
+  .top-heading-ticket {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  .ticket-desc {
+    text-align: justify;
+    padding-left: 0 !important;
+  }
+
+  .main-list-referral {
+    display: block !important;
+    margin: unset !important;
+  }
+
+  .accordion-rows .ui-provider > div:nth-of-type(1) > div {
+    width: 100% !important;
+  }
+
+  .accordion-rows .ui-provider>div:nth-of-type(1)>div>div:nth-of-type(1) {
+    flex-direction: column;
+  }
+
+  .accordion-rows .ui-provider>div:nth-of-type(1)>div>div:nth-of-type(2) {
+    padding-left: 2px !important;
+    width: 100% !important;
+    padding-right: 2px !important;
+  }
+
+  .accordion-rows .ui-provider>div:nth-of-type(1)>div>div>div>span[role="img"] {
+    display: none !important;
+  }
+
+  .pointslabel-parent>span {
+    width: 5rem !important;
+  }
+
+  .pointslabel-parent>span>div {
+    width: 100%;
+    text-align: center;
+  }
+}

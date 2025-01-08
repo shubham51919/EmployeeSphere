@@ -1,0 +1,37 @@
+.ui-header{
+    margin: 0;
+}
+.hr-header{
+    width: 92.5vw;
+    margin: 3vh 10vw !important;
+    border-radius: 4px !important;
+}
+.hr-header > div{
+    border-radius: 4px;
+    background: url('../../../Assets/hrAssets/headerHrRef.svg') no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right !important;
+}
+#headerimg{
+    width: 33vw;
+}
+#headingdash{
+    padding: 3vw;
+}
+#subheadingdash{
+    max-width: 45vw;
+}
+
+/* .overview-cards{
+    display: flex;
+    flex-wrap: wrap !important;
+    width: 10vw !important;
+} */
+.overviewcards{
+    display: flex;
+    flex-wrap: wrap !important;
+}
+.hrmain{
+    min-height: 100%;
+}

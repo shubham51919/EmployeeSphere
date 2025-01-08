@@ -1,0 +1,18 @@
+/* .ui-radiogroup__item.bz {
+  display: unset !important;
+}
+
+.ui-radiogroup__item {
+  border: 1px solid black !important;
+} */
+
+.radio-travel-pages > div {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.radio-travel-pages > div > span {
+  margin-left: 0px;
+}

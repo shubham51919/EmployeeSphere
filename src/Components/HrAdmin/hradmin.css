@@ -1,0 +1,86 @@
+.hradmin-main {
+  padding: 3vh 3vw;
+}
+.head-title-hr {
+  padding: 1vh 1vw;
+  font-size: 3vh;
+  font-weight: 300;
+}
+.sorticon-hr {
+  height: 5vh;
+}
+.sorticon-hr {
+  padding: 1vw;
+}
+
+.hr-dialog > h2 {
+  width: 100%;
+}
+.hr-dialog > div:nth-of-type(1) {
+  margin-bottom: 3rem !important;
+}
+
+.hr-dialog > .ui-dialog__footer > div > div {
+  justify-content: end !important;
+}
+.hr-dialog .ui-dialog__footer > div > div > button {
+  width: 10rem;
+}
+
+.hr-dialog .ui-text.detail {
+  overflow-y: auto !important;
+  text-align: justify !important;
+  /* height: 10rem !important; */
+}
+
+.hr-dialog .ui-text.detail .hr-admin-description {
+  height: 10rem !important;
+}
+
+.ticket-rows-header {
+  flex: 10%;
+  font-size: 2vh;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  overflow: hidden;
+}
+.name-ticket {
+  flex: 25%;
+  font-size: 2vh;
+  font-weight: 400;
+}
+.name-sub-ticket {
+  flex: 18%;
+  font-size: 2vh;
+  font-weight: 400;
+  display: -webkit-box;
+  max-width: 200px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.heading-row-main {
+  display: flex;
+  border-bottom: 1px solid whitesmoke;
+  height: 8vh;
+}
+.user-img-rows {
+  border-radius: 50%;
+  height: 3vh;
+  width: 3vw;
+  /* padding-right: 1vw; */
+}
+.name-user-ticket {
+  width: 13vw;
+}
+.search-hr-admin > div > input {
+  height: 25px;
+  width: 250px;
+  padding: 0rem 1rem !important;
+}
+
+.search-hr-admin {
+  font-size: 12px;
+  color: #616161;
+}

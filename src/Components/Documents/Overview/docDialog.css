@@ -1,0 +1,71 @@
+.doc-dialog .ui-header {
+  width: 100%;
+}
+
+.ui-input__icon span[role="img"] {
+  position: absolute;
+  right: 0;
+}
+
+.ui-dialog__footer > div > div {
+  justify-content: space-between !important;
+  width: 13rem;
+}
+
+.ui-dialog__footer > div > div > button {
+  justify-content: center !important;
+  width: 15rem;
+  margin-right: 0;
+  margin-left: 0rem;
+  height: 2.5rem;
+}
+
+.refer-form-items label::after {
+  content: "*";
+  color: red;
+  margin-left: 0.2rem;
+}
+
+.dropdown-label::after {
+  content: "*";
+  color: red;
+  margin-left: 0.2rem;
+}
+
+.doc-dialog .ui-divider {
+  width: 100%;
+}
+
+.doc-dialog label {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.doc-dialog label::after {
+  content: "*";
+  color: red;
+  margin-left: 0.2rem;
+}
+
+.doc-dialog .ui-dialog__footer > div > div > button {
+  width: 8rem;
+}
+
+.doc-dialog .ui-dialog__footer > div > div {
+  justify-content: end !important;
+}
+
+@media (max-height: 620px) {
+  .dialog-btn > :nth-child(2) > form {
+    height: 17rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 9rem;
+  }
+}
+@media (min-height: 621px) {
+  .dialog-btn > :nth-child(2) > form {
+    /* height: 17rem;
+      overflow-y: auto; */
+  }
+}

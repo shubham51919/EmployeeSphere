@@ -1,0 +1,484 @@
+.overview-btn {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 12vw !important;
+}
+.singleoverviewCard {
+  display: flex !important;
+}
+.CardsOverview {
+  display: flex !important;
+}
+.overviewcards {
+  display: flex !important;
+  justify-content: center;
+}
+.overviewheader {
+  margin: 0vh 2vw;
+}
+.btn-referral {
+  width: 10vw !important;
+  max-width: 15vw !important;
+}
+.allreferrals {
+  width: 46vw;
+}
+.refer-btn {
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+}
+.overviewcards {
+  display: flex !important;
+}
+.overview-single-card {
+  margin-bottom: 0 !important;
+}
+#yourReferral-list .pointslabels {
+  width: 7rem;
+  justify-content: center;
+  border-radius: 5rem;
+  padding: 1.7vh 1.2vw;
+  font-size: 0.7rem;
+}
+
+.ms-ListItem {
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+.ms-ListItem:last-child {
+  border-bottom: none;
+}
+.Referral {
+  min-height: 100%;
+}
+.leaderboard-card-list {
+  width: 46vw;
+}
+.main-list-referral {
+  overflow-y: auto !important;
+  width: 44vw !important;
+}
+.main-list-loader-referral {
+  overflow-y: auto !important;
+  width: 44vw !important;
+  height: 95vh;
+}
+.main-list-loader-referral-par {
+  overflow-y: auto !important;
+  width: 44vw !important;
+  height: 51vh;
+}
+.main-list-referral > li {
+  border-bottom: 1px solid #d1d1d1;
+  cursor: default !important;
+  padding: 0 !important;
+}
+
+.avatar-list1 > span {
+  background-color: rgb(208, 162, 199);
+}
+.avatar-list2 > span {
+  background-color: rgb(246, 200, 166);
+}
+.avatar-list3 > span {
+  background-color: rgb(172, 215, 190);
+}
+.avatar-list4 > span {
+  background-color: rgb(168, 198, 242);
+}
+.avatar-list5 > span {
+  background-color: rgb(227, 227, 140);
+}
+.refer-btn {
+  margin: 1vw;
+}
+.ui-dropdown__container {
+  width: 11.7rem !important;
+}
+
+#linked-in-inline {
+  width: 31.7rem !important;
+}
+#skills-inline {
+  width: 31.7rem;
+}
+.dialog-btn {
+  border-radius: 2px;
+}
+#resume {
+  width: 31.7rem !important;
+}
+.backIcon {
+  position: relative;
+}
+.hradmin-main {
+  padding: 3vh 3vw;
+}
+.header-text {
+  font-size: 2vh !important;
+  font-weight: 600 !important;
+}
+.head-title-hr {
+  padding: 1vh 1vw;
+  font-size: 3vh;
+  font-weight: 300;
+}
+.sorticon-hr {
+  height: 5vh;
+}
+.sorticon-hr {
+  padding: 1vw;
+}
+.ticket-rows-header {
+  flex: 10%;
+  font-size: 2vh;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  overflow: hidden;
+}
+.name-ticket {
+  flex: 21%;
+  text-overflow: ellipsis;
+  font-size: 2vh;
+  font-weight: 400;
+}
+.name-sub-ticket {
+  flex: 10%;
+  font-size: 2vh;
+  font-weight: 400;
+  display: -webkit-box;
+  max-width: 200px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.Referral_Dropdown {
+  background: #ffffff;
+  border-radius: 3px;
+  width: 100%;
+  padding: 2px;
+}
+.ui-dropdown__container {
+  width: 100% !important;
+}
+.Referral_Input {
+  /* background: #fcfcfc; */
+  border-radius: 3px;
+  width: 100%;
+  padding: 4px;
+}
+.heading-row-main {
+  display: flex;
+  border-bottom: 1px solid whitesmoke;
+  height: 8vh;
+  width: 90vw;
+}
+.user-img-rows {
+  border-radius: 50%;
+  height: 3vh;
+  width: 3vw;
+  /* padding-right: 1vw; */
+}
+.name-user-ticket {
+  width: 13vw;
+}
+.details {
+  font-weight: 400;
+  font-size: 1rem;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+.detail {
+  font-weight: 400;
+  font-size: 1rem;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+.main_dialog_ref {
+  padding-top: 1rem;
+}
+.Segments {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ui-dropdown__items-list {
+  transform: translate(0px, 32px) !important;
+  width: 100% !important;
+}
+.ui-list__item {
+  cursor: pointer !important;
+}
+.segment {
+  padding: 1rem !important;
+}
+.header-list-admin {
+  position: fixed;
+  top: 45px;
+  z-index: 3;
+}
+.body-list-admin {
+  padding-top: 60px !important;
+}
+.dialog-body {
+  padding: 0rem !important;
+  border-radius: 2px !important;
+  height: 34.1rem;
+  width: 34.5rem;
+  min-height: 60vh;
+}
+.no-link-download {
+  color: #979494;
+}
+.download-resume > span {
+  color: white;
+}
+.parent-name-list {
+  margin-right: 0 !important;
+}
+
+.list-skeleton-parent {
+  width: 100%;
+}
+.list-skeleton {
+  width: 100%;
+}
+.list-skeleton > li {
+  padding: 1rem 0.5rem;
+  margin: 1rem 0rem;
+}
+.card-title-main {
+  font-size: 1rem;
+}
+
+.card-small {
+  padding: 0.5rem !important;
+}
+.card-flex-main > div {
+  max-height: 4.5rem !important;
+  border-radius: 4px !important;
+}
+.segment-list {
+  border-radius: 4px !important;
+}
+.segment-list > div {
+  min-height: 50vh;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+.dialog-body-refferal {
+  padding: 0 !important;
+}
+
+.dialog-body-refferal .ui-header {
+  width: 100%;
+}
+.dialog-body-refferal > h2 {
+  padding: 1rem;
+  margin: 0;
+}
+.dialog-body-refferal > h2 > div {
+  margin: 0 !important;
+}
+.dialog-body-refferal > div > div:nth-of-type(1) {
+  padding: 0 !important;
+}
+.dialog-body-refferal > div > div:nth-of-type(2) {
+  height: 20rem;
+  padding: 1rem !important;
+  overflow-y: scroll;
+}
+.dialog-body-refferal > div {
+  margin: 0 !important;
+  height: calc(100% - 50px);
+}
+
+.dialog-body-refferal > div > div:nth-of-type(2) > div {
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.dialog-body-refferal > div > div:nth-of-type(2) > div > div {
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 100% !important;
+}
+.dialog-body-refferal > div > div:nth-of-type(2) > div > div > div {
+  margin: 0;
+  width: 100%;
+  justify-content: unset;
+  flex-direction: row;
+  align-items: center;
+}
+.ui-text.details {
+  width: 30%;
+  margin: 0 !important;
+}
+
+.hr-admin-input::after {
+  content: "*";
+  font-size: "10px";
+  color: red;
+  margin-left: 2px;
+}
+
+.ui-text.detail {
+  min-width: 70%;
+  max-width: 70%;
+  width: unset;
+  margin: 0 !important;
+}
+
+.comment-detail {
+  padding: 0.6rem 1rem;
+}
+.comment-detail > div > input {
+  /* width: 30vw; */
+  height: 3rem;
+}
+.ListMain > div:nth-of-type(3) {
+  overflow-y: auto;
+  height: calc(100% - 100px);
+}
+.ListMain > div:nth-of-type(1) {
+  margin-bottom: 0 !important;
+}
+.main-ref {
+  width: 100%;
+  padding: 0.5rem 1.25rem 1.25rem;
+}
+
+.main-ref > h1:nth-of-type(1) {
+  margin: 0 !important;
+  margin-bottom: 1.5rem !important;
+  width: 100%;
+}
+.main-ref > div:nth-of-type(1) {
+  width: 100%;
+}
+.main-ref > div:nth-of-type(1) > div {
+  margin: 0;
+  width: 50%;
+}
+.referral-list-row {
+  flex-direction: column;
+}
+.child-name-list-col {
+  width: 100%;
+}
+.referral-list-row > span:nth-of-type(2) {
+  width: 100%;
+}
+.leader-head-tab {
+  padding: 3.5px 8px;
+  border-radius: 4px;
+  gap: 0.5rem;
+}
+.leader-head-tab > div {
+  background-color: transparent;
+}
+
+.ref-modal .ui-header {
+  width: 100%;
+}
+
+.ref-modal > h2:nth-of-type(1) {
+  padding: 1rem;
+}
+.ref-modal > div:nth-of-type(1) {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  margin: 0;
+}
+
+.ref-modal > div:nth-of-type(1) > form {
+  margin: 0;
+  padding: 0;
+  margin-top: 4px;
+}
+.ref-modal > div:nth-of-type(1) > form > div {
+  margin: 0px;
+  height: 100%;
+  padding: 0;
+}
+.ref-modal > div:nth-of-type(1) > form > div > div {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.ref-modal > div:nth-of-type(2) {
+  padding: 1rem;
+}
+.ref-modal > div:nth-of-type(2) > div > div {
+  justify-content: end !important;
+}
+.ref-modal > div:nth-of-type(2) > div > div > button {
+  width: fit-content !important;
+  min-width: fit-content !important;
+  max-width: fit-content !important;
+  padding: 6px 24px !important;
+  height: unset;
+}
+.ref-modal
+  > div:nth-of-type(2)
+  > div
+  > div
+  > button:nth-of-type(1)
+  > span
+  > span {
+  padding: 0 !important;
+}
+.ref-modal > div:nth-of-type(1) > form > div > div > div {
+  margin: 0;
+}
+.fullinput-dir,
+.fullinput-dir > div,
+.fullinput-dir > div > input,
+.full-input > div,
+.full-input > div > div,
+.full-input > div > div > div,
+.full-input > div > div > div > input {
+  width: 100% !important;
+}
+
+.leaderboard-card-list > div {
+  height: 100%;
+}
+
+.leaderboard-card-list > div > div {
+  height: 100%;
+}
+
+.leaderboard-card-list > div > div > div {
+  height: 100%;
+}
+
+.fluent-dialog > div:nth-of-type(1) {
+  background: transparent;
+}
+.comment-detail > div:nth-of-type(1) {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .empty-image {
+    height: 8rem !important;
+  }
+}

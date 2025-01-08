@@ -1,0 +1,33 @@
+# TeamsFx files
+env/.env.*.user
+env/.env.local
+.DS_Store
+.localConfigs
+build
+appPackage/build
+infra
+teamsapp.local.yml
+teamsapp.yml
+
+
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+env
+
+aad.manifest.json
+package-lock.json
+*.zip
+
+
+# misc
+.DS_Store
+.env
+.deployment
+.vscode

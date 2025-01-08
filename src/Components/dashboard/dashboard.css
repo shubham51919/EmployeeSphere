@@ -1,0 +1,723 @@
+.ui-header {
+  margin: 0;
+}
+
+.Dashheader {
+  width: 90%;
+  margin: 3% 5%;
+}
+
+.qr-parent-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-circle-dashboard {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  height: 100px;
+  width: 100px;
+}
+
+#headerimgdash {
+  width: 29vw;
+}
+
+#subheadingdashmain {
+  max-width: 38vw;
+}
+
+.banner-main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  border-radius: 1rem;
+  background-position: right !important;
+  color: black;
+  gap: 1rem;
+  height: 32vh;
+  width: 61vw;
+  background: url("../../Assets/dashboardAssets/Group\ 22.svg") no-repeat;
+  background-size: cover;
+  padding: 1rem 2rem;
+}
+
+.banner-main-dona {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  border-radius: 1rem;
+  background-position: right !important;
+  color: black;
+  gap: 1rem;
+  height: 32vh;
+  width: 61vw;
+  background-size: cover;
+  padding: 1rem 2rem;
+}
+
+.inner-banner-main *,
+.inner-banner-main {
+  height: 100%;
+}
+
+.inner-banner-main * {
+  height: 100%;
+  width: 100% !important;
+}
+
+.inner-banner-main > div {
+  width: 100% !important;
+  height: 100%;
+}
+
+.inner-banner-main > div > div {
+  width: 100% !important;
+}
+
+.inner-container {
+  background: url("../../Assets/dashboardAssets/Mask\ group.svg") no-repeat
+    right top;
+  background-size: cover;
+  width: 100%;
+  border-radius: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.inner-container {
+  background: url("../../Assets/dashboardAssets/Mask\ group.svg") no-repeat
+    right top;
+  background-size: cover;
+  width: 100%;
+  border-radius: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.user-info-head {
+  padding: 0.5rem 1rem 1rem 2rem;
+}
+
+.user-info-inner {
+  width: 100%;
+}
+
+.end-box-subhead {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.end-box-head {
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.end-box-head {
+  font-size: 26px;
+  font-weight: 400px;
+}
+
+.end-box-head-dona {
+  height: 2rem !important;
+  font-size: 26px;
+  font-weight: 400px;
+}
+
+.end-box-img {
+  display: flex;
+  justify-content: center;
+  height: 5rem !important;
+  width: 5rem !important;
+}
+
+.end-box > div {
+  margin-left: 2rem;
+  color: black;
+  gap: 1rem;
+}
+
+.end-box {
+  display: flex;
+  flex-direction: column;
+  /* margin: 0rem 3rem; */
+  justify-content: center;
+
+  border-radius: 1rem;
+  background-position: right !important;
+  color: black;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  background: url("../../Assets/dashboardAssets/Group\ 22.svg") no-repeat;
+  background-size: cover;
+}
+
+.main-head-container {
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.text-dashboard-heading {
+  margin: 2rem 3rem 0rem 3rem;
+  font-size: x-large;
+  font-weight: 500;
+  height: 100%;
+}
+
+.main-head-container > div {
+  width: 100%;
+  border-radius: 1rem;
+  height: 100%;
+}
+
+.main-sub-container-front {
+  flex: 20%;
+}
+
+.main-sub-container-end {
+  flex: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-height: 670px) {
+  .DashCards > div > div {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .DashCards > div {
+    /* height: 20rem; */
+    border-radius: 8px 8px 0rem 0rem;
+  }
+
+  .card-sub-ref {
+    /* color: rgb(98, 98, 98); */
+    font-size: 0.7rem;
+  }
+
+  .card-head-ref {
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+
+  .singleCard > div > div {
+    margin-right: 0 !important;
+    min-height: 4.6rem !important;
+    border-radius: 4px 4px 0px 0px;
+    overflow: hidden;
+  }
+
+  .dash-container {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    gap: 1.5rem !important;
+  }
+
+  .end-box-subhead {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .end-box-head-dona {
+    height: 2rem !important;
+    font-size: 20px;
+    font-weight: 400px;
+  }
+
+  .end-box-img {
+    display: flex;
+    justify-content: center;
+    height: 2rem !important;
+    width: 5rem !important;
+  }
+
+  .end-box-head {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .end-box-head {
+    font-size: 20px;
+    font-weight: 400px;
+  }
+
+  .user-info-head {
+    padding: 0.4rem 1rem 0.4rem 2rem;
+  }
+
+  .user-info-inner-main {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .user-info-inner-name {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .user-info-inner-grey {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .inner-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 1rem 1rem 0.5rem 2rem;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .avatar-dash {
+    height: 40px;
+    width: 55px;
+  }
+
+  .main-sub-container-front > div {
+    width: 100%;
+    border-radius: 1rem;
+    height: 17rem !important;
+  }
+
+  .main-sub-container-end > div {
+    display: flex;
+    width: 100% !important;
+    border-radius: 1rem;
+    height: 17rem !important;
+    justify-content: space-between !important;
+  }
+
+  .main-head-container {
+    display: flex;
+    background: transparent !important;
+    padding: 0rem 2.5rem !important;
+    width: 100% !important;
+    border-radius: 1rem;
+    height: 17rem !important;
+  }
+
+  .text-dashboard-heading {
+    margin: 1rem 3rem 0rem 3rem !important;
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+    height: 100% !important;
+  }
+}
+
+@media (min-height: 671px) {
+  .DashCards > div > div {
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .DashCards > div {
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+
+  .card-sub-ref {
+    font-size: 0.9rem;
+  }
+
+  .card-head-ref {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .singleCard > div > div {
+    margin-right: 0 !important;
+    min-height: 5.5rem !important;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+
+  .dash-container {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    gap: 2.2rem !important;
+  }
+
+  .end-box-subhead {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .end-box-head-dona {
+    height: 2rem !important;
+    font-size: 26px;
+    font-weight: 400px;
+  }
+
+  .end-box-img {
+    display: flex;
+    justify-content: center;
+    height: 5rem !important;
+    width: 5rem !important;
+  }
+
+  .end-box-head {
+    font-size: 34px;
+    font-weight: 400;
+    align-items: flex-end;
+  }
+
+  .end-box-head {
+    font-size: 26px;
+    font-weight: 400px;
+  }
+
+  .user-info-head {
+    padding: 0.5rem 1rem 1rem 2rem;
+  }
+
+  .user-info-inner-main {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .user-info-inner-name {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .user-info-inner-grey {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .inner-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 2rem 1rem 1rem 2rem;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .avatar-dash {
+    height: 50px;
+    width: 65px;
+  }
+
+  .main-sub-container-front > div {
+    width: 100%;
+    border-radius: 1rem;
+    height: 20rem;
+  }
+
+  .main-sub-container-end > div {
+    display: flex;
+    width: 100%;
+    border-radius: 1rem;
+    height: 20rem;
+    justify-content: space-between;
+  }
+
+  .main-head-container {
+    display: flex;
+    background: transparent !important;
+    padding: 0rem 3rem;
+    width: 100%;
+    border-radius: 1rem;
+    height: 20rem;
+  }
+}
+
+.end-container {
+  width: 40%;
+  justify-content: end;
+  border-radius: 1rem;
+}
+
+.dashboard {
+  overflow-y: auto;
+  min-height: 100%;
+  height: 100vh;
+  padding: 2rem 2rem;
+}
+
+#cardname {
+  padding: 1vh 1vw;
+}
+
+#cardsubhead {
+  max-width: 50vw;
+}
+
+.DashCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: max-content;
+  grid-gap: 1.3rem;
+  width: 93.5%;
+  margin: 0 auto;
+}
+
+.singleCard {
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.singleCard > div {
+  width: 100%;
+  display: flex;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.singleCard > div:hover {
+  background-color: transparent !important;
+}
+
+.btn-dashboard {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.card-column-ref {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 1rem 1rem;
+}
+
+.color-black {
+  color: black !important;
+}
+
+.color-white {
+  color: white !important;
+}
+
+.color-grey {
+  color: #605e5c !important;
+}
+
+.dashboard .ui-carousel__navigation {
+  height: fit-content;
+  width: 100% !important;
+  position: absolute;
+  bottom: 0;
+}
+
+.dashboard .ui-carousel__navigation > li {
+  height: fit-content;
+  max-width: 21px;
+}
+
+.inner-banner-main > div > button {
+  width: 1rem !important;
+  display: none;
+}
+
+.front-box {
+  height: 100%;
+}
+
+.avatar-dash > img {
+  width: 2rem;
+}
+
+.card-column-ref > div:nth-of-type(1) {
+  margin-bottom: 0.3rem !important;
+}
+
+.card-column-ref > div:nth-of-type(2) {
+  margin-bottom: 0 !important;
+}
+
+.food-box {
+  display: none !important;
+}
+
+@media screen and (max-width: 480px) {
+  .main-sub-container-end {
+    flex: 20% 1 !important;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .inner-container {
+    background: none;
+    background: url("../../Assets/dashboardAssets/mobile-inner-main.svg"),
+      linear-gradient(
+        180deg,
+        rgba(158, 175, 230, 0.64) 0%,
+        rgba(158, 175, 230, 0.1024) 58.52%,
+        rgba(158, 175, 230, 0) 100%
+      );
+    background-size: 50%, 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position:
+      top right,
+      top left;
+  }
+
+  .dashboard {
+    padding: 1px !important;
+  }
+
+  .dash-container {
+    gap: 5px !important;
+  }
+
+  .text-dashboard-heading {
+    display: none;
+  }
+
+  .main-head-container {
+    padding: 2px 12px !important;
+    padding-top: 15px !important;
+    height: 40% !important;
+    flex-direction: column !important;
+    background: linear-gradient(270deg, #d9e5ff 0%, #eedfff 100%);
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .main-sub-container-end {
+    width: 100%;
+    flex: 0% 0 !important;
+  }
+
+  .main-sub-container-end > div {
+    height: unset !important;
+  }
+
+  .provider-msce {
+    width: 100%;
+    height: 100%;
+  }
+
+  .end-box {
+    height: 20vh;
+    justify-content: center;
+    padding-right: 25%;
+    padding-left: 18px !important;
+    background: url(../../Assets/dashboardAssets/Mask\ group-mobile.svg);
+    background-size: cover;
+  }
+
+  .end-box-head {
+    font-size: 16px !important;
+    text-align: left;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .end-box-subhead {
+    text-align: left;
+    font-size: 14px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .food-box {
+    display: block !important;
+    height: 28vh !important;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0) !important;
+    padding: 2px 12px;
+  }
+
+  .food-content {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../Assets/dashboardAssets/foodNotOrdered.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+  }
+
+  .DashCards {
+    padding: 10px;
+    width: 100% !important;
+    margin: 0 !important;
+    gap: 10px !important;
+  }
+
+  ::-webkit-scrollbar {
+    width: thin;
+  }
+
+  .DashCards > div {
+    justify-content: center;
+    width: 100%;
+    height: 18vh !important;
+    border-radius: 14px !important;
+    border: 1px solid #d8d8d8;
+    box-shadow: 0px 2px 8px 0px #0000000a;
+    background-color: #ffffff;
+  }
+
+  .dashcard {
+    background-color: blue;
+  }
+
+  .dashcard-provider {
+    width: 100%;
+    flex-direction: row !important;
+    padding: 0 !important;
+  }
+
+  .singleCard {
+    flex-direction: row;
+  }
+
+  .card-column-ref {
+    width: 50%;
+    height: 100%;
+  }
+
+  .card-image {
+    width: 50%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .card-image > img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    border-top-left-radius: 12px !important;
+    border-bottom-left-radius: 12px !important;
+    border-top-right-radius: 0px !important;
+  }
+
+  .card-comp {
+    display: flex;
+    flex-direction: row !important;
+  }
+
+  .card-head-ref {
+    font-size: 14px !important;
+  }
+}

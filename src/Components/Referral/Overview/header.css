@@ -1,0 +1,68 @@
+.ui-header {
+  margin: 0 !important;
+}
+.header {
+  height: 13rem;
+  padding-top: 0.5rem;
+  width: 93vw;
+}
+#headerimg {
+  width: 33vw;
+}
+#headingdash {
+  padding: 2vw;
+  justify-content: unset !important;
+}
+#subheadingrefdash {
+  max-width: 55vw;
+}
+
+/* .overview-cards{
+    display: flex;
+    flex-wrap: wrap !important;
+    width: 10vw !important;
+} */
+.overviewcards {
+  display: flex;
+  flex-wrap: wrap !important;
+}
+.referral-portal-heading {
+  color: #242424;
+  font-size: 1.5rem;
+  z-index: 2;
+  font-weight: 600;
+  margin-bottom: 4px !important;
+}
+.header > div {
+  border-radius: 4px;
+  background: url("../../../Assets/referralAssets/headerRefBg.svg") no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right !important;
+}
+.new-ref-header > div {
+  background: transparent;
+}
+.referral-portal-subheading {
+  color: #424242;
+  font-size: 0.9rem;
+  font-weight: 400;
+  z-index: 2;
+  margin-bottom: 0.75rem;
+}
+.refer-form-items > div > input {
+  width: 15rem;
+}
+.refer-form-items > div > div {
+  width: 15rem;
+  justify-content: end !important;
+}
+.refer-form-items > div > div > button > span {
+  font-weight: 200;
+}
+.refer-form-items > div > div:nth-last-child(2) {
+  justify-content: end;
+}
+.input-parent-main {
+  padding-left: 0 !important;
+}

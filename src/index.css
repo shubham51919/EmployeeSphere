@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.ui-icon svg {
+  height: 15px;
+  width: 15px;
+}
+
+.mandatory::after {
+  content: "*";
+  color: red;
+  margin-left: 2px;
+}
+
+@media only screen and (min-width: 2561px) {
+  #yourReferral-list {
+    min-height: calc(100vh - 375px);
+    max-height: calc(100vh - 375px);
+  }
+
+  #leaderboard-list {
+    min-height: calc(100vh - 565px);
+    max-height: calc(100vh - 565px);
+  }
+}
+
+@media only screen and (min-width: 1951px) and (max-width: 2560px) {
+  #yourReferral-list {
+    min-height: calc(100vh - 345px);
+    max-height: calc(100vh - 345px);
+  }
+
+  #leaderboard-list {
+    min-height: calc(100vh - 535px);
+    max-height: calc(100vh - 535px);
+  }
+}
+
+@media only screen and (min-width: 1750px) and (max-width: 1950px) {
+  #yourReferral-list {
+    min-height: calc(100vh - 271px);
+    max-height: calc(100vh - 271px);
+  }
+
+  #leaderboard-list {
+    min-height: calc(100vh - 460px);
+    max-height: calc(100vh - 460px);
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1750px) {
+  #yourReferral-list {
+    min-height: calc(100vh - 195px);
+    max-height: calc(100vh - 195px);
+  }
+
+  #leaderboard-list {
+    min-height: calc(100vh - 385px);
+    max-height: calc(100vh - 385px);
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  #yourReferral-list {
+    min-height: calc(100vh + 17px);
+    max-height: calc(100vh + 17px);
+  }
+
+  #leaderboard-list {
+    min-height: calc(100vh - 170px);
+    max-height: calc(100vh - 170px);
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+  #yourReferral-list {
+    min-height: calc(100vh - 0px);
+    max-height: calc(100vh - 76px);
+  }
+
+  #leaderboard-list {
+    min-height: calc(100vh - 150px);
+    max-height: calc(100vh - 250px);
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+  #yourReferral-list {
+    min-height: calc(100vh - 17px);
+    max-height: calc(100vh - 17px);
+  }
+
+  #leaderboard-list {
+    min-height: calc(100vh - 170px);
+    max-height: calc(100vh - 170px);
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #yourReferral-list {
+    min-height: calc(100vh + 68px);
+    max-height: calc(100vh + 68px);
+  }
+
+  #leaderboard-list {
+    min-height: calc(100vh - 120px);
+    max-height: calc(100vh - 120px);
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .DashCards {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .DashCards {
+    grid-template-columns: 1fr !important;
+  }
+}

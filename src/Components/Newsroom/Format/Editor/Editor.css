@@ -1,0 +1,35 @@
+.text-dark-editor>div>div>div {
+  background-color: rgb(32, 31, 31) !important;
+}
+
+.ql-editor.ql-blank::before {
+  color: rgb(200,
+      198,
+      196) !important;
+  /* Change this to your desired text color */
+}
+
+.text-editor {
+  max-width: 100% !important;
+}
+
+.text-editor>div {
+  max-width: 100% !important;
+}
+
+.text-editor>div>div {
+  max-width: 100% !important;
+}
+
+.text-editor>div>div>div {
+  max-width: 100% !important;
+}
+
+.text-editor>div>div>div {
+  background-color: #f5f5f5 !important;
+}
+
+.text-editor::placeholder {
+  color: grey;
+  /* Change this to your desired text color */
+}

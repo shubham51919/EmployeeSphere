@@ -1,0 +1,217 @@
+.login {
+  height: 100%;
+  width: 100%;
+}
+
+.login-section {
+  height: 100%;
+  width: 52%;
+}
+
+.image-section {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+
+.left-svg {
+  margin-top: 10%;
+  position: relative;
+}
+
+.heading-login {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Segoe UI";
+  margin: 8% 6%;
+  width: 100%;
+}
+
+.heading-login h1 {
+  text-shadow: "2px 2px 4px rgba(0,0,0,0.5);";
+}
+
+.bottom-circle {
+  position: absolute;
+  bottom: 0;
+}
+
+.right-image {
+  height: 80%;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+  .tab-flex {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tab-flex {
+    flex-direction: row;
+  }
+}
+
+/* 
+.left button {
+  padding: 20px;
+}
+
+.heading {
+  padding-left: 5rem;
+}
+.heading h1 {
+  max-width: 400px;
+  text-shadow: "2px 2px 4px rgba(0,0,0,0.5);";
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.heading button {
+  width: 70%;
+  padding: 20px;
+} */
+mgt-login::shadow .login-button {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  border: 2px solid darkblue !important;
+}
+
+mgt-login::shadow .root {
+  width: 100% !important;
+}
+
+.text-class {
+  margin-bottom: 8vh;
+  font-size: 5vh;
+  font-weight: 600;
+  max-width: 75%;
+}
+
+.btn {
+  font-size: 3vh;
+  display: flex;
+  gap: 10px;
+  padding: 5vh 5vh;
+  min-width: 55%;
+}
+
+.heading-text {
+  margin-bottom: 8vh;
+  font-size: 5vh;
+  font-weight: 600;
+  max-width: 75%;
+}
+
+.btn-image {
+  height: 50px;
+  margin-right: 0.3rem;
+}
+
+.btn-text {
+  font-size: 3vh;
+}
+
+@media screen and (max-width: 480px) {
+  .login {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+  .login>.provider {
+    height: 100%;
+    width: 100%;
+  }
+
+  .flexclass {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url("../../Assets/loginAssets/mobile-right.svg"),
+      url("../../Assets/loginAssets/mobile-left1.svg"),
+      url("../../Assets/loginAssets/mobile-left2.svg");
+    background-repeat: no-repeat;
+    background-position:
+      top 60% right,
+      top 20% left,
+      top 25% left;
+  }
+
+  .login-section {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("../../Assets/loginAssets/mobile-bootom-left.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+
+  .image-section {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../Assets/loginAssets/mobile-top-left.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+
+  .heading-text {
+    margin-bottom: 3vh;
+    font-size: 3vh;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .right-image {
+    width: 65%;
+    height: fit-content;
+  }
+
+  .btn {
+    padding: 3vh 2vw !important;
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
+
+  .btn>div {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .heading-login {
+    width: 80vw;
+    margin: 0 !important;
+    align-items: center;
+  }
+
+  .left-svg,
+  .top-images,
+  .bottom-circle {
+    display: none;
+  }
+
+  .btn-text {
+    font-weight: 500;
+    font-size: 1.1rem !important;
+  }
+
+  .btn-image {
+    height: 20px !important;
+    margin-right: 0 !important;
+  }
+}

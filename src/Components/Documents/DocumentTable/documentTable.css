@@ -1,0 +1,3 @@
+.document-table .ui-table__cell__content div:first-child {
+  background-color: transparent !important;
+}

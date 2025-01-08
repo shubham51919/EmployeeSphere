@@ -1,0 +1,251 @@
+.app {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+mgt-login {
+  --font-weight: 100;
+  border-radius: 5px;
+  background-color: #5b5fc7;
+  --button-background-color--hover: #7579f6;
+  --button-width: 100%;
+  color: white;
+  width: fit-content;
+}
+
+mgt-login::shadow .login-button {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  border: 2px solid darkblue !important;
+}
+
+mgt-login::shadow .root {
+  width: 100% !important;
+}
+
+mgt-login :hover {
+  background-color: #6b6feb;
+}
+
+::-webkit-scrollbar {
+  width: 20px !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1 !important;
+  border-radius: 20px !important;
+  border: 6px solid transparent !important;
+  background-clip: content-box !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf !important;
+}
+
+
+
+
+
+
+
+
+
+.hradmin-heading-dialog>div {
+  height: 2rem;
+}
+
+.breadcrumb-div {
+  font-size: 12px;
+  column-gap: 8px;
+  background-color: transparent !important;
+}
+
+.breadcrumb-curr {
+  text-decoration: none;
+  color: rgb(128, 133, 238);
+  font-weight: 600;
+}
+
+.breadcrumb-prev {
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.ca-admin-header {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  background-color: transparent !important;
+}
+
+.ca-admin-header-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  display: flex;
+}
+
+.ca-admin-header-btn {
+  column-gap: 12px;
+}
+
+.hradmin-heading-dialog>div {
+  height: 2rem;
+}
+
+.breadcrumb-div {
+  font-size: 12px;
+  column-gap: 8px;
+  background-color: transparent !important;
+}
+
+.breadcrumb-curr {
+  text-decoration: none !important;
+  color: rgb(128, 133, 238);
+  font-weight: 600;
+}
+
+.ca-admin-header {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  background-color: transparent !important;
+}
+
+.new-class-admin-ca>ul:nth-of-type(2) {
+  overflow-y: auto;
+  height: calc(100vh - 200px);
+}
+
+.breadcrumb-prev {
+  text-decoration: none !important;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.ca-admin-header-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  display: flex;
+}
+
+.ca-admin-header-btn {
+  column-gap: 12px;
+}
+
+.admin-popup-block {
+  position: relative;
+}
+
+/* .workplacehub-admin-popup-body > div:nth-of-type(2) > div {
+  transform: translate(525px, -305px) !important;
+} */
+.admin-popup-block svg {
+  cursor: pointer;
+}
+
+#posFix-true {
+  height: calc(100vh - 30px);
+  animation: posFixFalse 0.3s linear forwards;
+}
+
+#posFix-false {
+  height: calc(100vh - 100px);
+  animation: posFixTrue 0.3s linear forwards;
+}
+
+/* #posFix-default {
+  height: calc(100vh - 215px);
+} */
+@keyframes posFixTrue {
+  0% {
+    height: calc(100vh - 30px);
+  }
+
+  100% {
+    height: calc(100vh - 100px);
+  }
+}
+
+@keyframes posFixFalse {
+  0% {
+    height: calc(100vh - 100px);
+  }
+
+  100% {
+    height: calc(100vh - 30px);
+  }
+}
+
+#posFixContent-true {
+  height: calc(100vh - 100px);
+  animation: posFixFalseContent 0.3s linear forwards;
+}
+
+#posFixContent-false {
+  height: calc(100vh - 175px);
+  animation: posFixTrueContent 0.3s linear forwards;
+}
+
+#posFixContent-default {
+  height: calc(100vh - 285px);
+}
+
+@keyframes posFixTrueContent {
+  0% {
+    height: calc(100vh - 100px);
+  }
+
+  100% {
+    height: calc(100vh - 175px);
+  }
+}
+
+@keyframes posFixFalseContent {
+  0% {
+    height: calc(100vh - 175px);
+  }
+
+  100% {
+    height: calc(100vh - 100px);
+  }
+}
+
+.EditDeleteOptions-block {
+  flex-direction: column;
+  row-gap: 4px;
+  padding: 4px 0;
+}
+
+.edOption {
+  width: 6rem;
+  cursor: pointer;
+  padding: 4 12px;
+}
+
+.edOption:nth-of-type(1) {
+  border-bottom: 1px solid #efefef;
+}
+
+.edOption:hover {
+  background-color: #f6f6f6;
+}
+
+.view-suggestion-dialog .ui-header {
+  width: 100%;
+}
+
+.view-suggestion-dialog .ui-dialog__footer>div>div {
+  justify-content: end !important;
+}
+
+.view-suggestion-dialog .ui-dialog__footer>div>div button {
+  width: fit-content;
+}
